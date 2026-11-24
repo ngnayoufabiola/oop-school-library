@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # Represents a book available for rental.
 class Book
   attr_accessor :title, :author

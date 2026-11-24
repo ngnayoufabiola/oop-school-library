@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require_relative 'nameable'
 # Represents a person who can rent books.
 class Person < Nameable

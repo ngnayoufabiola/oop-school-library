@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require_relative 'book'
 book = Book.new('The Hobbit', 'J.R.R. Tolkien')
 puts book.title

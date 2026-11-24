@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # Represents a rental connecting a person and a book.
 class Rental
   attr_accessor :date
