@@ -1,0 +1,15 @@
+# frozen_string_literal: true
+
+# Represents a rental connecting a person and a book.
+class Rental
+  attr_accessor :date
+  attr_reader :book, :person
+
+  def initialize(date, book, person)
+    @date = date
+    @book = book
+    @person = person
+    book.add_rental(self)
+    person.add_rental(self)
+  end
+end
